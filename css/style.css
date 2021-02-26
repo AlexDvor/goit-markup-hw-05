@@ -637,6 +637,11 @@ p {
   background-color: var(--tertiary-color-text);
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .btn-modal {
   display: flex;
   align-items: center;
