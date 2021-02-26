@@ -618,7 +618,7 @@ p {
 
 /*---------- MODAL WINDOWS----------  */
 
-/* .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -635,4 +635,16 @@ p {
   width: 528px;
   height: 581px;
   background-color: var(--tertiary-color-text);
-} */
+}
+
+.btn-modal {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 490px;
+  margin-top: 8px;
+  border-radius: 50%;
+}
