@@ -421,6 +421,8 @@ p {
   align-items: center;
   justify-content: center;
   fill: var(--inactive-color-button);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon:hover,
@@ -465,11 +467,15 @@ p {
   height: 90px;
   border: 1px solid var(--inactive-color-button);
   border-radius: 5px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-client:hover,
 .item-client:focus {
   border: 1px solid var(--accent-color);
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-client:hover .icon-client,
