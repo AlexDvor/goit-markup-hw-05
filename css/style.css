@@ -720,10 +720,13 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
-  height: 581px;
+  max-width: 528px;
+  min-height: 581px;
+  max-height: 100vh;
+  width: 100%;
+  padding: 35px;
   background-color: var(--tertiary-color-text);
-  overflow-y: auto;
+  /* overflow-y: auto; */
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -740,13 +743,14 @@ p {
 }
 
 .btn-modal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   display: flex;
   align-items: center;
   width: 30px;
   height: 30px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  margin-left: 490px;
-  margin-top: 8px;
   border-radius: 50%;
 }
